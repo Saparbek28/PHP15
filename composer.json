@@ -1,0 +1,17 @@
+{
+    "name": "step/mvc",
+    "license": "MIT",
+    "require": {
+        "klein/klein": "^2.1",
+        "filp/whoops": "^2.7",
+        "catfan/medoo": "^1.7"
+    },
+    "autoload":{
+        "psr-4":{
+            "": "./app"
+        },
+        "files":[
+            "./app/Helpers.php"
+        ]
+    }
+}
